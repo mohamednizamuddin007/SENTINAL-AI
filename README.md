@@ -45,7 +45,7 @@ SentinelAI is an AI-powered phishing detection system that analyzes emails and m
 5. AI model aggregates results and generates a phishing risk score
 6. System displays classification: **Safe**, **Suspicious**, or **Phishing**
 
-![Uploading image.png…]()
+
 
 
 ## 🔑 Key Features
