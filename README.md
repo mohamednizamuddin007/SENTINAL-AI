@@ -1,4 +1,4 @@
-
+# CYBER GUADIANS HACKATHON
 
 #  HK-17 – AI-Based Detection of Sophisticated Phishing Campaigns
 
@@ -11,38 +11,38 @@
 
 With the rise of generative AI, phishing attacks have evolved into highly personalized and convincing “convenience emails” such as fake delivery notifications, payment alerts, and account warnings. These emails are carefully crafted to exploit human psychology and often bypass traditional spam filters. SentinelAI aims to counter this threat by using artificial intelligence to analyze email content, embedded URLs, and visual elements to detect sophisticated phishing campaigns generated using AI.
 
-
-
 ##  Problem Statement
 
-Modern phishing attacks leverage AI to create realistic, context-aware emails that manipulate user trust and urgency. These attacks exploit psychological triggers such as fear, convenience, and authority, making them difficult for both users and traditional rule-based spam filters to detect. There is a growing need for an intelligent detection system that can identify these AI-generated phishing emails by analyzing linguistic patterns, visual spoofing, and malicious URL structures, and provide a clear risk assessment to users.
-
-
-
-## Definition & Background
-
-Phishing has transitioned from generic scam emails to highly targeted, AI-generated messages that mimic trusted brands and services. These “convenience phishing” emails often include:
-
-* Spoofed logos and branding
-* Lookalike domains and shortened URLs
-* Emotionally manipulative language
-* Context-aware personalization
-
-This project follows the **AI vs AI in Cybersecurity** theme by using defensive AI techniques to detect and mitigate offensive AI-driven phishing campaigns.
-
-
+HK-17 – AI-Based Detection of Sophisticated Phishing Campaigns
 
 ## Proposed Solution
 
-SentinelAI is an AI-powered phishing detection system that analyzes emails and messages to identify advanced phishing attempts. The system uses **Natural Language Processing (NLP)** to detect psychological manipulation tactics, **Computer Vision** to identify logo spoofing and visual impersonation, and **URL analysis** to flag suspicious and lookalike domains. Each email or message is assigned a **risk score**, helping users quickly understand the threat level and take appropriate action.
+1. AI-powered phishing detection platform focused on advanced and evasive attacks
+
+2. Leverages Natural Language Processing (NLP) to identify psychological manipulation tactics (urgency, fear, authority abuse)
+
+3. Uses Computer Vision to detect logo spoofing and visual brand impersonation
+
+4. Performs URL and domain analysis to flag suspicious, shortened, and lookalike domains
+
+5. Assigns a comprehensive risk score to every email or message
+
+6. Enables users to instantly assess threat severity and take decisive action
+
+7. Designed to reduce false negatives and improve real-world phishing resilience
 
 ##  System Workflow
 
 1. User uploads or inputs email/message content into the system
+
 2. NLP module analyzes text for manipulation patterns and phishing intent
+
 3. URL analysis module checks embedded links for malicious or lookalike domains
+
 4. Computer vision module inspects logos and images for brand spoofing
+ 
 5. AI model aggregates results and generates a phishing risk score
+ 
 6. System displays classification: **Safe**, **Suspicious**, or **Phishing**
 
 <img width="1024" height="940" alt="image" src="https://github.com/user-attachments/assets/9e207fe0-11e6-431a-8db3-83f18b6142c1" />
@@ -51,71 +51,62 @@ SentinelAI is an AI-powered phishing detection system that analyzes emails and m
 
 ##  Key Features
 
-* Detection of AI-generated phishing emails
-* NLP-based analysis of psychological manipulation techniques
-* URL reputation and lookalike domain detection
-* Logo spoofing detection using computer vision
-* Risk score-based email classification
-* Web-based interface for easy access and analysis
+1. Detection of AI-generated phishing emails
+    
+2. NLP-based analysis of psychological manipulation techniques
+   
+3. URL reputation and lookalike domain detection
+    
+4. Logo spoofing detection using computer vision
+    
+5. Risk score-based email classification
+ 
+6. Web-based interface for easy access and analysis
 
+## **Technology Stack Architecture**
 
+**Frontend**
 
-##  Tech Stack
+**React & TypeScript**: Built as a modern Single Page Application (SPA). TypeScript ensures "Type Safety," preventing memory leaks and crashes that could be exploited.
 
-### Frontend
+**Tailwind CSS**: Used for a "Cyber-Core" design language. It leverages hardware-accelerated CSS for the 3D grid animations and "Laser-Beam" scanning effects without lagging the browser.
 
-* HTML
-* CSS
-* JavaScript
+**Recharts**: A composable charting library used to visualize "Live Threat Telemetry," converting raw AI detection data into readable patterns.
 
-### Backend
+**Client-Side Processing**: The app uses html2canvas and jsPDF to generate forensic reports locally on your machine, ensuring the data analyzed doesn't stay on a server longer than necessary.
 
-* Python
-* Flask / FastAPI
+**Backend**
 
-### Artificial Intelligence & Machine Learning
+**AI-as-a-Service (Gemini API)**: Instead of a traditional monolithic database/server, this app uses an Edge Intelligence model. It communicates directly with Google's high-speed global inference servers.
 
-* Natural Language Processing (NLP)
-* Scikit-learn
-* TF-IDF / Text Embeddings
-* Computer Vision (OpenCV / CNN)
-* URL feature analysis
-* Machine Learning classifiers
+**Environment Injection**: Sensitive credentials (like the API Key) are managed via Vite's environment variables (process.env), ensuring they are never hard-coded into the source logic.
 
-### Security & Analysis
+## The Role of Artificial Intelligence (The "Brain")
 
-* Domain similarity detection
-* URL structure analysis
-* Heuristic + AI hybrid approach
+SentinelAI does not use simple "If/Then" rules. Traditional security looks for "Bad Words"; our AI looks for Bad Intent.
 
+**Multimodal Reasoning**: The system uses gemini-3-flash-preview for logic and gemini-2.5-flash-image for vision. It can "see" a screenshot of a fake login page and identify that the logo is slightly blurry or the font is off—markers of a phishing attempt.
 
-##  Output
+**Cognitive NLP Analysis**: It analyzes "Psychological Triggers." It detects if a message is using Artificial Urgency (e.g., "You have 10 minutes to act") or Authority Impersonation (mimicking a CEO’s writing style).
 
-* Risk score (0–100)
-* Classification: Safe / Suspicious / Phishing
-* Highlighted phishing indicators
-* Visual explanation of detected threats
+**Static Code Analysis**: When scanning API keys or files, the AI performs "Entropy Checks." It calculates how random a string is to determine if it’s a high-value secret (like a Stripe or AWS key) versus just a random string of text.
 
+ ## Output 
+The system produces a Forensic Intelligence Report, which includes:
 
-##  Category
+**Risk Score (0-100)**: A mathematical confidence level of the threat.
 
-**Software (AI / ML)**
+**Risk Classification**: Categorization into SAFE, SUSPICIOUS, or MALICIOUS.
 
+**Threat Vectors**: A breakdown of why it flagged the content (NLP triggers, URL redirects, or visual anomalies).
 
+**Actionable Remediation**: Technical steps to take (e.g., "Rotate your AWS key immediately," "Block sender domain").
 
-## Theme
+**Exportable Evidence**: Reports in PDF, Word, and PPT formats for corporate security audits.
 
-**AI vs AI in Cybersecurity**
+## Project Demo ScreenShots 
 
-
-
-##  Future Enhancements
-
-* Support for real-time email inbox integration
-* Deep learning models (LSTM / Transformers)
-* Multi-language phishing detection
-* Browser-based warning system
-* Integration with enterprise email gateways
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/a43f53af-b8fb-44d4-b8fd-8c91364c3b17" />
 
 
 ##  Conclusion
