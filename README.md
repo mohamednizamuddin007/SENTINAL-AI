@@ -108,6 +108,19 @@ The system produces a Forensic Intelligence Report, which includes:
 
 <img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/a43f53af-b8fb-44d4-b8fd-8c91364c3b17" />
 
+<img width="1901" height="1025" alt="image" src="https://github.com/user-attachments/assets/f8250546-aa94-4fef-825c-5130abb39604" />
+
+<img width="1897" height="1027" alt="image" src="https://github.com/user-attachments/assets/4772122c-14c1-46f1-967b-14ec0d7f4b8c" />
+
+<img width="1909" height="934" alt="Screenshot 2026-01-18 202922" src="https://github.com/user-attachments/assets/b16e4c6f-90dd-4e3e-a9aa-ba25f17a27a9" />
+
+<img width="1909" height="940" alt="Screenshot 2026-01-18 203033" src="https://github.com/user-attachments/assets/85740dfd-c8a3-4449-a7e4-96c28dd10c39" />
+
+<img width="1908" height="940" alt="Screenshot 2026-01-18 203052" src="https://github.com/user-attachments/assets/5506d227-1dad-4f46-8f84-009f705d5d50" />
+
+<img width="1908" height="938" alt="Screenshot 2026-01-18 203115" src="https://github.com/user-attachments/assets/8c51e345-8072-4f73-875a-be726c532234" />
+
+<img width="1908" height="937" alt="Screenshot 2026-01-18 203148" src="https://github.com/user-attachments/assets/9fe4bd31-37c0-48f5-9a85-3815647c837c" />
 
 ##  Conclusion
 
