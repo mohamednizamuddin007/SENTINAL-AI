@@ -1,0 +1,21 @@
+{
+  "name": "sentinel-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.37.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.0.0",
+    "lucide-react": "^0.562.0",
+    "pptxgenjs": "^4.0.1",
+    "recharts": "^3.6.0",
+    "vite": "^7.3.1"
+  }
+}
