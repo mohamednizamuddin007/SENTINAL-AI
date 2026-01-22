@@ -126,3 +126,5 @@ The system produces a Forensic Intelligence Report, which includes:
 
 SentinelAI demonstrates how artificial intelligence can be used defensively to combat increasingly sophisticated AI-driven phishing campaigns. By analyzing text, visuals, and URLs together, the system provides a comprehensive and scalable solution to detect phishing attacks that exploit convenience and trust, aligning perfectly with the AI vs AI cybersecurity paradigm.
 
+## Demo video:
+https://docs.google.com/presentation/d/1tvXyOhnlMtCQbmITy1ONKS45jRPPNTyO/edit?slide=id.p1#slide=id.p1
